@@ -13,3 +13,5 @@ def test_case_6():
     ]
     qualified_games = find_qualified_games(game_data, 1, 1)
     assert qualified_games == [6, 10, 5, 9]
+
+test_case_6()
